@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: rgb(212, 207, 194);
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif; 
+}
+
+
+
+
+.jumbotron{
+   
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 0;
+    background:  rgb(12, 55, 94); 
+    font-size: 1.3em;
+    padding: 40px 20px;
+    margin:0;
+}
+
+.nav-item{
+    font-size: .78em;
+    }
+
+input, label{
+    margin: 10px;
+}
+
+#about-link{
+    color:#2afeb7;
+}

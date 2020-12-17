@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: rgb(212, 207, 194);
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif; 
+}
+
+p{
+    
+    margin:0;
+    padding:0;
+}
+
+
+hr{
+    height: 2px;
+    margin: 0px;
+    background: #2afeb7;
+}
+
+
+.nav-item{
+font-size: .78em;
+}
+
+.jumbotron{
+   
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 0;
+    background:  rgb(12, 55, 94); 
+    font-size: 1.7em;
+    padding: 40px 20px;
+}
+
+.img-panel{
+    width: 100%;
+}
+.img-panel-vert{
+    width:75%;
+}
+
+
+#header-img{
+    padding: 0;
+}
+
+#gallery-link{
+    color: #2afeb7;
+}
