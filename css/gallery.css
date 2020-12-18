@@ -4,7 +4,7 @@
 }
 
 body{
-    background: rgb(212, 207, 194);
+    background: cornsilk;
     font-size: 1.5em;
     font-family: 'Raleway', sans-serif; 
 }
@@ -19,7 +19,7 @@ p{
 hr{
     height: 2px;
     margin: 0px;
-    background: #2afeb7;
+    background: #A2EBC1;
 }
 
 
@@ -29,10 +29,10 @@ font-size: .78em;
 
 .jumbotron{
    
-    color: white;
+    color: #464646;
     font-family: 'Lobster Two', cursive;
     border-radius: 0;
-    background:  rgb(12, 55, 94); 
+    background:  #A2EBC1; 
     font-size: 1.7em;
     padding: 40px 20px;
 }
@@ -50,5 +50,5 @@ font-size: .78em;
 }
 
 #gallery-link{
-    color: #2afeb7;
+    color: #A2EBC1;
 }

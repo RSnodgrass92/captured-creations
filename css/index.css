@@ -5,11 +5,11 @@
 
 body
 {
-    background: rgb(12, 55, 94)
+    background: #A2EBC1
 }
 
 p{
-    color: white; 
+    color: #464646; 
 }   
       
 .container{
@@ -29,12 +29,6 @@ p{
     border:solid yellow;
 }
 
-.img-start{
-    border: solid #2afeb7;
-    margin 0;
-    padding 0; 
-    margin auto;
-}
 
 .welcome-text{
 font-size: 1.5em;
@@ -52,8 +46,8 @@ font-family: 'Raleway', sans-serif;
 #start-btn{
  
  background: #00000000;
- border: #2afeb7 solid;
- color: #2afeb7;
+ border: #464646 solid;
+ color: #464646;
  padding: 15px;
  border-radius: 10px;
  
@@ -61,8 +55,8 @@ font-family: 'Raleway', sans-serif;
 
 #start-btn:hover{
 
-    background: #2afeb7;
-    color: rgba(28,38,47,1); 
+    background: #464646;
+    color: white; 
 }
 
 
