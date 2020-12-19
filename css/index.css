@@ -35,6 +35,11 @@ font-size: 1.5em;
 font-family: 'Raleway', sans-serif; 
 }
 
+.welcome-text-box{
+    background: #eeeeee;
+}
+
+
 .nav{
     width: 100px;
 }

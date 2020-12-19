@@ -6,7 +6,7 @@
 }
 
 body{
-    background: cornsilk;
+    background: white;
     font-size: 1.5em;
     font-family: 'Raleway', sans-serif; 
 }
@@ -16,10 +16,10 @@ body{
 
 .jumbotron{
    
-    color: white;
+    color: #464646;
     font-family: 'Lobster Two', cursive;
     border-radius: 0;
-    background:  rgb(12, 55, 94); 
+    background:  #A2EBC1; 
     font-size: 1.3em;
     padding: 40px 20px;
     margin:0;
@@ -34,5 +34,5 @@ input, label{
 }
 
 #about-link{
-    color:#2afeb7;
+    color:#A2EBC1;
 }

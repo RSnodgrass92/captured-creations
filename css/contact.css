@@ -4,21 +4,19 @@
 }
 
 body{
-    background: rgb(212, 207, 194);
-    font-size: 1.5em;
+    background: white;
     font-family: 'Raleway', sans-serif; 
+    font-size: 1.5em;
 }
-
-
-
 
 .jumbotron{
    
     color: white;
     font-family: 'Lobster Two', cursive;
     border-radius: 0;
-    background:  rgb(12, 55, 94); 
-    font-size: 1.3em;
+    background: #A2EBC1; 
+    color: #464646;
+    font-size: 1.8em;
     padding: 40px 20px;
     margin:0;
 }
@@ -27,10 +25,6 @@ body{
     font-size: .78em;
     }
 
-input, label{
-    margin: 10px;
-}
-
 #contact-link{
-    color:#2afeb7;
+    color:#A2EBC1;
 }
