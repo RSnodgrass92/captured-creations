@@ -6,7 +6,7 @@
 }
 
 body{
-    background: white;
+    background: #eeeeee;
     font-size: 1.5em;
     font-family: 'Raleway', sans-serif; 
 }
@@ -31,6 +31,19 @@ body{
 
 input, label{
     margin: 10px;
+}
+
+.card-header
+{
+    background:#464646;
+    color: white;
+    width: 100%;
+
+}
+
+.card-body
+{
+    font-size: .7em;
 }
 
 #about-link{

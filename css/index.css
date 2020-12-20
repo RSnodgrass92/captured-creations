@@ -5,7 +5,7 @@
 
 body
 {
-    background: #A2EBC1
+ background:#464646;
 }
 
 p{
@@ -35,6 +35,10 @@ font-size: 1.5em;
 font-family: 'Raleway', sans-serif; 
 }
 
+.header-text
+{
+    background: #A2EBC1;
+}
 .welcome-text-box{
     background: #eeeeee;
 }
@@ -55,7 +59,7 @@ font-family: 'Raleway', sans-serif;
  color: #464646;
  padding: 15px;
  border-radius: 10px;
- 
+ margin-top: 50px;
 }
 
 #start-btn:hover{
