@@ -4,7 +4,6 @@
 }
 
 body{
-    
     font-size: 1.5em;
     font-family: 'Raleway', sans-serif; 
 }
@@ -24,7 +23,7 @@ hr{
 
 
 .nav-item{
-font-size: .78em;
+font-size: .85em;
 }
 
 .jumbotron{
@@ -33,7 +32,6 @@ font-size: .78em;
     font-family: 'Lobster Two', cursive;
     border-radius: 0;
     background:  #A2EBC1; 
-    font-size: 1.7em;
     padding: 40px 20px;
 }
 

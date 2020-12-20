@@ -6,6 +6,7 @@
 body
 {
  background:#464646;
+ font-size: 1.5em;
 }
 
 p{
@@ -31,7 +32,7 @@ p{
 
 
 .welcome-text{
-font-size: 1.5em;
+
 font-family: 'Raleway', sans-serif; 
 }
 
@@ -50,7 +51,7 @@ font-family: 'Raleway', sans-serif;
 
 #headline{
     font-family: 'Lobster Two', cursive;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 #start-btn{
  

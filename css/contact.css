@@ -24,20 +24,24 @@ body{
     border-radius: 0;
     background: #A2EBC1; 
     color: #464646;
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 40px 20px;
     margin:0;
 }
 
 .nav-item{
-    font-size: .78em;
+    font-size: .85em;
     }
 
 .btn{
     background: #A2EBC1;
     border: solid #464646;
 }
-
+.btn:hover
+{
+    background: #464646;
+    color: white;
+}
 .card-header{
     background:#464646;
     color: white;    
@@ -53,4 +57,8 @@ body{
 #card-body-info{
     background:#464646;
     color: white;
+   
+}
+.card-body{
+    width: 100%;
 }

@@ -19,13 +19,12 @@ body{
     font-family: 'Lobster Two', cursive;
     border-radius: 0;
     background:  #A2EBC1; 
-    font-size: 1.3em;
     padding: 40px 20px;
     margin:0;
 }
 
 .nav-item{
-    font-size: .78em;
+    font-size: .85em;
     }
 
 input, label{
