@@ -24,7 +24,6 @@ body{
     border-radius: 0;
     background: #A2EBC1; 
     color: #464646;
-    font-size: 1.5em;
     padding: 40px 20px;
     margin:0;
 }
@@ -48,8 +47,13 @@ body{
 }
 
 .card-body{
-    background: #eeeeee;
+    background: #e9e9e9;
 }
+.form-control:focus{
+    border-color: #A2EBC1;
+    box-shadow:  inset 0 0 20px #A2EBC1;
+}
+
 #contact-link{
     color:#A2EBC1;
 }
@@ -59,6 +63,4 @@ body{
     color: white;
    
 }
-.card-body{
-    width: 100%;
-}
+
