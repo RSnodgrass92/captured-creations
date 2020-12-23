@@ -41,7 +41,10 @@ font-size: .85em;
 .img-panel-vert{
     width:75%;
 }
-
+.carousel-item{
+    max-height: 90vh;
+    background: black;
+}
 #header-img{
     padding: 0;
 }
