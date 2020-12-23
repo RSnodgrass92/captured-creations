@@ -34,3 +34,8 @@ input, label{
 #wildlife-link{
     color:#A2EBC1;
 }
+.wrapper{
+    
+    width: 98%;
+    margin:auto;
+}

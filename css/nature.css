@@ -31,6 +31,12 @@ input, label{
     margin: 10px;
 }
 
+.wrapper{
+    
+    width: 98%;
+    margin:auto;
+}
+
 #nature-link{
     color:#A2EBC1;
 }
