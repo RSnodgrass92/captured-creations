@@ -21,6 +21,13 @@ hr{
     background: #A2EBC1;
 }
 
+a:hover{
+    text-decoration: none;
+    color:#464646;
+}
+a{
+    color:#464646;
+}
 
 .nav-item{
 font-size: .85em;

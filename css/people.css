@@ -11,7 +11,13 @@ body{
     font-family: 'Raleway', sans-serif; 
 }
 
-
+a:hover{
+    text-decoration: none;
+    color:#464646;
+}
+a{
+    color:#464646;
+}
 
 .jumbotron{
    
@@ -33,4 +39,11 @@ input, label{
 
 #people-link{
     color:#A2EBC1;
+}
+a:hover{
+    text-decoration: none;
+    color:#464646;
+}
+a{
+    color:#464646;
 }

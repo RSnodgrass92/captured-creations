@@ -11,6 +11,13 @@ body{
     font-family: 'Raleway', sans-serif; 
 }
 
+a:hover{
+    text-decoration: none;
+    color:#464646;
+}
+a{
+    color:#464646;
+}
 
 
 .jumbotron{
