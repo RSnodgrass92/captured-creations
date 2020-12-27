@@ -40,6 +40,8 @@ font-size: .85em;
     border-radius: 0;
     background:  #A2EBC1; 
     padding: 40px 20px;
+    text-shadow: 2px 0px 1px black;
+    font-size: 2.1em;
 }
 
 .img-panel{
@@ -52,6 +54,13 @@ font-size: .85em;
     max-height: 90vh;
     background: black;
 }
+
+.wrapper{
+    
+    width: 98%;
+    margin:auto;
+}
+
 #header-img{
     padding: 0;
 }
@@ -59,3 +68,4 @@ font-size: .85em;
 #gallery-link{
     color: #A2EBC1;
 }
+
