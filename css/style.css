@@ -1,24 +1,28 @@
-\\#A2EBC1
-\\#464646
+
 *{
     margin: 0;
     padding:0;
 }
 
 body{
-    background: white;
+
     font-size: 1.5em;
     font-family: 'Raleway', sans-serif; 
+}
+p{
+    
+    margin:0;
+    padding:0;
 }
 
 a:hover{
     text-decoration: none;
     color:#464646;
 }
+
 a{
     color:#464646;
 }
-
 
 .jumbotron{
    
@@ -40,12 +44,15 @@ input, label{
     margin: 10px;
 }
 
+.active{
+    color:#A2EBC1 !important;
+}
 .wrapper{
     
     width: 98%;
     margin:auto;
 }
 
-#nature-link{
-    color:#A2EBC1;
+#header-img{
+    padding: 0;
 }
