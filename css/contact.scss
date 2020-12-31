@@ -1,0 +1,82 @@
+$color-text: #464646;
+$color-header: #A2EBC1;
+$color-text-shadow:#000000;
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+a{
+    color:$color-header;
+    &:hover{
+        color: $color-header;
+    }
+}
+
+
+body{
+  
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.5em;
+}
+
+
+
+.jumbotron{
+   
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 0;
+    background: $color-header; 
+    color: #464646;
+    padding: 40px 20px;
+    margin:0;
+    text-shadow: 2px 0px 1px black;
+    font-size: 2.1em;
+}
+
+.nav-item{
+    font-size: .85em;
+    }
+
+.btn{
+    background: $color-header;
+    border: solid $color-text;
+    &:hover
+    {
+        background: $color-text;
+        color: white;
+    }
+}
+
+.card-header{
+    background:$color-text;
+    color: white;    
+}
+
+.card-body{
+    background: #e9e9e9;
+}
+.form-control:focus{
+    border-color: $color-header;
+    box-shadow:  inset 0 0 20px $color-header;
+}
+
+
+#card-body-info{
+    background:$color-text;
+    color: white;
+   
+}
+
+#header-txt{
+    color: $color-text;
+}
+ #header-txt:hover{
+     text-decoration: none;
+ }
+
+ .active{
+    color:$color-header !important;
+}

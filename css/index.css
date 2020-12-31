@@ -1,75 +1,50 @@
-*{
-    margin: 0;
-    padding:0;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-body
-{
- background:#464646;
- font-size: 1.5em;
-}
+body {
+  background: #464646;
+  font-size: 1.5em; }
 
-p{
-    color: #464646; 
-}   
-      
-.container{
-   
-    color: white;
-    margin: 0; 
-    padding: 0;
-    margin: auto;
-    
-}
+p {
+  color: #464646; }
 
-.welcome-text{
+.container {
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin: auto; }
 
-font-family: 'Raleway', sans-serif; 
-}
+.welcome-text {
+  font-family: 'Raleway', sans-serif; }
 
-.header-text
-{
-    background: #A2EBC1;
-}
-.welcome-text-box{
-    background: #e9e9e9;
-    margin: 10px;
-}
+.header-text {
+  background: #A2EBC1; }
 
+.welcome-text-box {
+  background: #e9e9e9;
+  margin: 10px; }
 
-.nav{
-    width: 100px;
-}
+.nav {
+  width: 100px; }
 
-
-#start-btn{
- 
- background: #00000000;
- border: #464646 solid;
- color: #464646;
- padding: 15px;
- border-radius: 10px;
- margin-top: 50px;
-}
-
-#start-btn:hover{
-
+#start-btn {
+  background: #00000000;
+  border: #464646 solid;
+  color: #464646;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 50px; }
+  #start-btn:hover {
     background: #464646;
-    color: white; 
-}
+    color: white; }
 
-.jumbotron{
-   
-    color: #464646;
-    font-family: 'Lobster Two', cursive;
-    border-radius: 0;
-    background:  #A2EBC1; 
-    padding: 40px 20px;
-    margin:0;
-    text-shadow: 2px 0px 1px black;
-    font-size: 5em;
-}
-
-
-
-
+.jumbotron {
+  color: #464646;
+  font-family: 'Lobster Two', cursive;
+  border-radius: 0;
+  background: #A2EBC1;
+  padding: 40px 20px;
+  margin: 0;
+  text-shadow: 2px 0px 1px #000000;
+  font-size: 5em; }

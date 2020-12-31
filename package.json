@@ -6,12 +6,27 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite"
+    "start": "npm run watch:all",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "imagemin": "imagemin images/wildlife/* -o dist/images/wildlife && imagemin images/people/* -o dist/images/people && imagemin images/nature/* -o dist/images/nature && imagemin images/index/* -o dist/images/index && imagemin images/gallery/* -o dist/images/gallery && imagemin images/contact/* -o dist/images/contact && imagemin images/about/* -o dist/images/about",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin", 
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin wildlife.html -d dist --htmlmin -o dist/wildlife.html && usemin people.html -d dist --htmlmin -o dist/people.html && usemin nature.html -d dist --htmlmin -o dist/nature.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",

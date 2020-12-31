@@ -1,76 +1,57 @@
-*{
-    margin: 0;
-    padding:0;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-a{
-    color:#A2EBC1;
-}
-a:hover
-{
-    color: #A2EBC1;
-}
+a {
+  color: #A2EBC1; }
+  a:hover {
+    color: #A2EBC1; }
 
-body{
-  
-    font-family: 'Raleway', sans-serif; 
-    font-size: 1.5em;
-}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em; }
 
+.jumbotron {
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  border-radius: 0;
+  background: #A2EBC1;
+  color: #464646;
+  padding: 40px 20px;
+  margin: 0;
+  text-shadow: 2px 0px 1px black;
+  font-size: 2.1em; }
 
+.nav-item {
+  font-size: .85em; }
 
-.jumbotron{
-   
-    color: white;
-    font-family: 'Lobster Two', cursive;
-    border-radius: 0;
-    background: #A2EBC1; 
-    color: #464646;
-    padding: 40px 20px;
-    margin:0;
-    text-shadow: 2px 0px 1px black;
-    font-size: 2.1em;
-}
-
-.nav-item{
-    font-size: .85em;
-    }
-
-.btn{
-    background: #A2EBC1;
-    border: solid #464646;
-}
-.btn:hover
-{
+.btn {
+  background: #A2EBC1;
+  border: solid #464646; }
+  .btn:hover {
     background: #464646;
-    color: white;
-}
-.card-header{
-    background:#464646;
-    color: white;    
-}
+    color: white; }
 
-.card-body{
-    background: #e9e9e9;
-}
-.form-control:focus{
-    border-color: #A2EBC1;
-    box-shadow:  inset 0 0 20px #A2EBC1;
-}
+.card-header {
+  background: #464646;
+  color: white; }
 
-#contact-link{
-    color:#A2EBC1;
-}
+.card-body {
+  background: #e9e9e9; }
 
-#card-body-info{
-    background:#464646;
-    color: white;
-   
-}
+.form-control:focus {
+  border-color: #A2EBC1;
+  box-shadow: inset 0 0 20px #A2EBC1; }
 
-#header-txt{
-    color: #464646;
-}
- #header-txt:hover{
-     text-decoration: none;
- }
+#card-body-info {
+  background: #464646;
+  color: white; }
+
+#header-txt {
+  color: #464646; }
+
+#header-txt:hover {
+  text-decoration: none; }
+
+.active {
+  color: #A2EBC1 !important; }
