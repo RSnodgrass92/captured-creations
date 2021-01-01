@@ -10,7 +10,7 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
-    "imagemin": "imagemin images/wildlife/* -o dist/images/wildlife && imagemin images/people/* -o dist/images/people && imagemin images/nature/* -o dist/images/nature && imagemin images/index/* -o dist/images/index && imagemin images/gallery/* -o dist/images/gallery && imagemin images/contact/* -o dist/images/contact && imagemin images/about/* -o dist/images/about",
+    "imagemin": "imagemin images/wildlife/* -o dist/images/wildlife && imagemin images/people/* -o dist/images/people && imagemin images/nature/* -o dist/images/nature && imagemin images/index/* -o dist/images/index && imagemin images/gallery/* -o dist/images/gallery && imagemin images/contact/* -o dist/images/contact && imagemin images/about/* -o dist/images/about && imagemin images/tab-icon/* -o dist/images/tab-icon",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin", 
     "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin wildlife.html -d dist --htmlmin -o dist/wildlife.html && usemin people.html -d dist --htmlmin -o dist/people.html && usemin nature.html -d dist --htmlmin -o dist/nature.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html",
